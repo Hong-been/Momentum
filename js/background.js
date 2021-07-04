@@ -7,10 +7,6 @@ const images=[
     "Back4.jpg",
 ]
 
-const background=document.createElement("img");
-document.body.appendChild(background);
-
 const choosenImage=images[Math.floor(Math.random()*images.length)];
-
-background.src=`img/${choosenImage}`;
-console.dir(background);
+const url=`img/${choosenImage}`;
+document.body.background=url;
