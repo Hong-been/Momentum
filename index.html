@@ -7,37 +7,46 @@
     <link rel="stylesheet" href="CSS/style.css">
     <title>Momentum</title>
 </head>
-<body class="text-deco">
-    <div class="center-text">
-        <form class="hidden" id="login-form">
-        <input id="SI"
-        required
-        maxlength="15"
-        type="text" 
-        placeholder="What's your name? Under 15 charcters."
-        />
-        <button >Log In</button>
-    </form>
-    <h2 id="clock">00:00</h2>
-    <h1 class="hidden" id="greeting"></h1>
-    <form id="todo-form">
-        <input id="SI"
-        required type="text" placeholder="Write a To do and Press Enter"/>
-    </form>
-    <ul id="todo-list"></ul>
-    <div id="quote">
-        <span></span>
-        <span></span>
-    </div>
-</div>
-
+<body>
+    <div class=top>
     <div id="weather">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
+    </div>
+    <div class=center-top></div>
+    <div class=center-mid>
+        <form class="hidden" id="login-form">
+            <input id="SI"
+            required
+            maxlength="15"
+            type="text" 
+            placeholder="What's your name? Under 15 charcters."
+            />
+            <button >Log In</button>
+        </form>
+    <div id="clock">00:00</div>
+    <div class="hidden" id="greeting"></div>
+    </div>
+        
+    <div class=center-bottom>
+        <form id="todo-form">
+            <input id="SI"
+            required type="text" placeholder="Write a To do and Press Enter"/>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    
+    <div class=bottom>
+    <div id="quote">
+        <div></div>
+        <div></div>
+    </div>
+    </div>
+    
 
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
