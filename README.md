@@ -1,4 +1,4 @@
-# Momentum for js study
-- JS project : Chrome app with Vanilla JS
+# Momentum for JS study
+- JS project : Todo-list Chrome app with Vanilla JS
 - Teacher : NomadCoder
-- Lesson url: https://nomadcoders.co/javascript-for-beginners
+- Url of this lecture: https://nomadcoders.co/javascript-for-beginners
