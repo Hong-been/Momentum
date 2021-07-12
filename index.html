@@ -7,21 +7,24 @@
     <link rel="stylesheet" href="CSS/style.css">
     <title>Momentum</title>
 </head>
-<body>
+<body scroll="no">
     <div class=top>
     <div id="weather">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="weather-main">
+            <div></div>
+            <div></div>
+        </div>
+        <div class="weather-temp">
+            <div></div>
+            <div></div>
+        </div>
     </div>
     </div>
-    <div class=center-top></div>
     <div class=center-mid>
         <form class="hidden" id="login-form">
             <input id="SI"
             required
+            autocomplete="off"
             maxlength="15"
             type="text" 
             placeholder="What's your name? Under 15 charcters."
@@ -32,18 +35,23 @@
     <div class="hidden" id="greeting"></div>
     </div>
         
+
+    <div class=center-gap></div>
     <div class=center-bottom>
         <form id="todo-form">
             <input id="SI"
-            required type="text" placeholder="Write a To do and Press Enter"/>
+            required 
+            autocomplete="off"
+            type="text" 
+            placeholder="What will you do?"/>
         </form>
         <ul id="todo-list"></ul>
     </div>
     
     <div class=bottom>
     <div id="quote">
-        <div></div>
-        <div></div>
+        <span></span>
+        <span></span>
     </div>
     </div>
     
